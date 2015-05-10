@@ -1,0 +1,21 @@
+{
+  "name": "f1race",
+  "description": "F1 Race ",
+  "version": "1.0.0",
+  "homepage": "http://localhost/:8000/app/",
+  "license": "MIT",
+  "private": true,
+  "dependencies": {
+    "angular": "1.3.x",
+    "angular-mocks": "1.3.x",
+    "angular-route": "1.3.x",
+    "jquery": "~2.1.1",
+    "bootstrap": "~3.1.1"
+  },
+  "devDepedencies": {
+    "angular": "1.3.x",
+    "angular-mocks": "1.3.x",
+    "jquery": "~2.1.1",
+    "bootstrap": "~3.1.1"
+  }
+}

@@ -2,6 +2,7 @@
     <div style="float:left;">   
   <a href="./#/drivers"><- Back to drivers list</a>
   <nav id="secondary" class="main-nav">
+      
     <div class="driver-picture">
       <div class="avatar">
         <img ng-show="driver" src="img/drivers/{{driver.Driver.driverId}}.png" />
@@ -9,6 +10,7 @@
         {{driver.Driver.givenName}} {{driver.Driver.familyName}}
       </div>
     </div>
+      <div class="driver-country">{{driver.Driver.nationality}}</div>
     <div class="driver-status">
       Country: {{driver.Driver.nationality}}   <br/>
       Team: {{driver.Constructors[0].name}}<br/>
@@ -31,7 +33,7 @@
           <td>{{race.round}}</td>
           <td><img  src="img/flags/{{race.Circuit.Location.country}}.png" />{{race.raceName}}</td>
           <td>{{race.Results[0].Constructor.name}}</td>
-          <td>{{race.Results[0].grid}}</td>
+          <td>{{race.Results[0].grids}}</td>
           <td>{{race.Results[0].position}}</td>
         </tr>
       </tbody>
